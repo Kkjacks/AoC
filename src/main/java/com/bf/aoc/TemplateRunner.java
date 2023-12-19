@@ -1,4 +1,4 @@
-package com.bf.aoc.dayX;
+package com.bf.aoc;
 
 import java.util.List;
 import java.util.regex.Pattern;
