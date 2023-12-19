@@ -51,19 +51,24 @@ public class HashRunner extends Runner {
                 boxes.put(boxNumber, new ArrayList<>());
             List<Pair<String, Integer>> box = boxes.get(boxNumber);
             Pair<String, Integer> entry = box.stream().filter(p -> p.getKey().equals(code)).findFirst().orElse(null);
+
+            // remove entry if exists
             if (lens == null) {
                 box.remove(entry);
             } else {
+                // replace slot with new lens
                 if (entry != null) {
                     int index = box.indexOf(entry);
                     box.remove(entry);
                     box.add(index, Pair.of(code, Integer.parseInt(lens)));
+                // add new slot
                 } else {
                     box.add(Pair.of(code, Integer.parseInt(lens)));
                 }
             }
         }
 
+        // calculate result
         int result = 0;
         for (Map.Entry<Integer, List<Pair<String, Integer>>> entry : boxes.entrySet()) {
             int boxNum = entry.getKey() + 1;
