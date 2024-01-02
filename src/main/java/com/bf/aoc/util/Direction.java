@@ -1,4 +1,4 @@
-package com.bf.aoc.day10;
+package com.bf.aoc.util;
 
 public enum Direction {
     N(-1,0),
@@ -51,7 +51,4 @@ public enum Direction {
         return N;
     }
 
-    public Direction reverse() {
-        return from();
-    }
 }

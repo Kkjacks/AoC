@@ -1,7 +1,7 @@
 package com.bf.aoc.day18;
 
 import com.bf.aoc.Runner;
-import com.bf.aoc.day10.Direction;
+import com.bf.aoc.util.Direction;
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.ArrayList;

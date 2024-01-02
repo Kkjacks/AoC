@@ -1,9 +1,11 @@
 package com.bf.aoc.day10;
 
+import com.bf.aoc.util.Direction;
 import lombok.Getter;
 
 import java.util.Set;
 
+@Getter
 public enum Pipe {
     NS('|', Direction.N, Direction.S),
     NE('L', Direction.N, Direction.E),
@@ -30,8 +32,8 @@ public enum Pipe {
         throw new IllegalArgumentException("" + d1 + d2);
     }
 
-    @Getter private final char val;
-    @Getter private final Set<Direction> directions;
+    private final char val;
+    private final Set<Direction> directions;
 
     Pipe(char val, Direction... directions) {
         this.val = val;

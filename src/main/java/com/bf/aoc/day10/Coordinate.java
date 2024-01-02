@@ -1,5 +1,6 @@
 package com.bf.aoc.day10;
 
+import com.bf.aoc.util.Direction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,7 +11,7 @@ public class Coordinate {
     private static final Logger log = LoggerFactory.getLogger("");
     final int row, col;
     Pipe pipe;
-    private Set<Direction> openConnections = new HashSet<>();
+    private final Set<Direction> openConnections = new HashSet<>();
     private boolean included;
 
     Coordinate(int row, int col, Pipe pipe) {

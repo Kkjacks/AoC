@@ -1,6 +1,6 @@
 package com.bf.aoc.day18;
 
-import com.bf.aoc.day10.Direction;
+import com.bf.aoc.util.Direction;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Table;
 import org.apache.commons.lang3.tuple.Pair;

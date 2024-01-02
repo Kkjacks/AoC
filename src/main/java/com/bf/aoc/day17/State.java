@@ -1,6 +1,6 @@
 package com.bf.aoc.day17;
 
-import com.bf.aoc.day10.Direction;
+import com.bf.aoc.util.Direction;
 
 import java.util.Collection;
 

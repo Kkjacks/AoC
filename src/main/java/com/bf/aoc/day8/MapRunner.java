@@ -1,6 +1,7 @@
 package com.bf.aoc.day8;
 
 import com.bf.aoc.DataReader;
+import com.bf.aoc.util.LCM;
 import org.apache.commons.lang3.tuple.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -43,12 +44,7 @@ public class MapRunner {
             lcmList.add(findLoop(map, steps, node));
         }
         log.info("{}", lcmList);
-        long lcm = lcmList.remove(0);
-        while (!lcmList.isEmpty()) {
-            lcm = lcm(lcm, lcmList.remove(0));
-        }
-
-        return lcm;
+        return LCM.calculate(lcmList);
     }
 
     private static long findLoop(Map<String, Pair<String, String>> map, char[] steps, String start) {
@@ -67,15 +63,5 @@ public class MapRunner {
 
     private static String nextNode(Map<String, Pair<String, String>> map, String node, char step) {
         return step == 'L' ? map.get(node).getLeft() : map.get(node).getRight();
-    }
-
-    private static long lcm(long number1, long number2) {
-        long higherNumber = Math.max(number1, number2);
-        long lowerNumber = Math.min(number1, number2);
-        long lcm = higherNumber;
-        while (lcm % lowerNumber != 0) {
-            lcm += higherNumber;
-        }
-        return lcm;
     }
 }

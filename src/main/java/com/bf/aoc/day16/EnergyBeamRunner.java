@@ -1,7 +1,7 @@
 package com.bf.aoc.day16;
 
 import com.bf.aoc.Runner;
-import com.bf.aoc.day10.Direction;
+import com.bf.aoc.util.Direction;
 
 import java.util.List;
 

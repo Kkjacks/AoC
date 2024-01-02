@@ -1,6 +1,6 @@
 package com.bf.aoc.day16;
 
-import com.bf.aoc.day10.Direction;
+import com.bf.aoc.util.Direction;
 
 public class Beam {
     Coordinates coordinates;

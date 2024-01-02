@@ -8,7 +8,7 @@ import java.util.List;
 public abstract class Runner {
     protected static int DAY = 0;
     protected static boolean TEST = true;
-    protected static int PART = 1;
+    public static int PART = 1;
     public static final Logger log = LoggerFactory.getLogger("");
 
     public static List<String> input() {

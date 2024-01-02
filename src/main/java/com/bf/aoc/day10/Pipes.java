@@ -1,5 +1,6 @@
 package com.bf.aoc.day10;
 
+import com.bf.aoc.util.Direction;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Table;
 import lombok.Getter;
