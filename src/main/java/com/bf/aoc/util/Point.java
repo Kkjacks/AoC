@@ -4,4 +4,9 @@ public record Point (long row, long col){
     public Point move(Direction direction) {
         return new Point(row + direction.rowOffset(), col + direction.colOffset());
     }
+
+    @Override
+    public String toString() {
+        return "["+row+","+col+"]";
+    }
 }

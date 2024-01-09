@@ -10,8 +10,11 @@ public class TemplateRunner extends com.bf.aoc.Runner {
     private static final Pattern pattern = Pattern.compile("(\\w{3}) = \\((\\w{3}), (\\w{3})\\)");
 
     public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();
         TemplateRunner r = new TemplateRunner();
         log.info("Result: {}", isPart1() ? r.part1(input()) : r.part2(input()));
+        long endTime = System.currentTimeMillis();
+        log.info("{} sec", String.format("%5.3f", (endTime - startTime) / 1000f));
     }
 
     @Override
