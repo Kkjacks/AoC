@@ -19,12 +19,22 @@ public class DataReader {
 
     @SneakyThrows
     public static List<String> test(int day) {
-        return Files.readAllLines(Paths.get("./src/main/resources/day" + day + "/test.txt"));
+        return test(2023, day);
     }
 
     @SneakyThrows
     public static List<String> data(int day) {
-        return Files.readAllLines(Paths.get("./src/main/resources/day" + day + "/data.txt"));
+        return data(2023, day);
+    }
+
+    @SneakyThrows
+    public static List<String> test(int year, int day) {
+        return Files.readAllLines(Paths.get("./src/main/resources/year" + year + "/day" + day + "/test.txt"));
+    }
+
+    @SneakyThrows
+    public static List<String> data(int year, int day) {
+        return Files.readAllLines(Paths.get("./src/main/resources/year" + year + "/day" + day + "/data.txt"));
     }
 
 }
