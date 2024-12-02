@@ -1,6 +1,6 @@
 package com.bf.aoc._2023.day20;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 import com.bf.aoc._2023.day20.modules.Broadcaster;
 import com.bf.aoc._2023.day20.modules.Button;
 import com.bf.aoc._2023.day20.modules.Conjunction;
@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PulseRunner extends Runner {
+public class PulseRunner extends Runner2023 {
     static {
         DAY=20; TEST=false; PART=2;
     }

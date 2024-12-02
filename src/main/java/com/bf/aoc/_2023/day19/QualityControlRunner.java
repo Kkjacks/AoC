@@ -1,13 +1,13 @@
 package com.bf.aoc._2023.day19;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class QualityControlRunner extends Runner {
+public class QualityControlRunner extends Runner2023 {
     static {
         DAY=19; TEST=false; PART=2;
     }

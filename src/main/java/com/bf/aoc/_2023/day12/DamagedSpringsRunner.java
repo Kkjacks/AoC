@@ -1,5 +1,6 @@
 package com.bf.aoc._2023.day12;
 
+import com.bf.aoc._2023.Runner2023;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;
 
@@ -12,7 +13,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class DamagedSpringsRunner extends com.bf.aoc.Runner {
+public class DamagedSpringsRunner extends Runner2023 {
     static {
         DAY=12; TEST=false; PART=2;
     }

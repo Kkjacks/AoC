@@ -1,9 +1,11 @@
 package com.bf.aoc._2023.day13;
 
+import com.bf.aoc._2023.Runner2023;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class MirrorRunner extends com.bf.aoc.Runner {
+public class MirrorRunner extends Runner2023 {
     static {
         DAY=13; TEST=false; PART=2;
     }

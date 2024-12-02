@@ -1,13 +1,13 @@
 package com.bf.aoc._2023.day17;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 import com.bf.aoc.util.Direction;
 
 import java.util.HashSet;
 import java.util.List;
 import java.util.PriorityQueue;
 
-public class CrucibleRunner extends Runner {
+public class CrucibleRunner extends Runner2023 {
     static {
         DAY=17; TEST=false; PART=2;
     }

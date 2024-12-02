@@ -1,7 +1,7 @@
 package com.bf.aoc._2023.day3;
 
 import com.bf.aoc.DataReader;
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Multimap;
 import org.slf4j.Logger;
@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
-public class SchematicRunner extends Runner {
+public class SchematicRunner extends Runner2023 {
     private static final Logger log = LoggerFactory.getLogger("");
     static {
         DAY=3; TEST=false; PART=2;

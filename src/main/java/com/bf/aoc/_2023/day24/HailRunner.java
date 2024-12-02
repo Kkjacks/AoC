@@ -1,6 +1,6 @@
 package com.bf.aoc._2023.day24;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 import org.apache.commons.lang3.DoubleRange;
 import org.apache.commons.lang3.Range;
 
@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 import static java.lang.String.format;
 
-public class HailRunner extends Runner {
+public class HailRunner extends Runner2023 {
     static {
         DAY=24; TEST=false; PART=2;
     }

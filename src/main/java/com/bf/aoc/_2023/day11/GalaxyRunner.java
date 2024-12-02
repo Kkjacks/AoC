@@ -1,6 +1,6 @@
 package com.bf.aoc._2023.day11;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class GalaxyRunner extends Runner {
+public class GalaxyRunner extends Runner2023 {
     static {
         DAY = 11; TEST = false; PART = 2;
     }

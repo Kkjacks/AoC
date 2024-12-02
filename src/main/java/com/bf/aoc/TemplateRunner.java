@@ -1,9 +1,11 @@
 package com.bf.aoc;
 
+import com.bf.aoc._2024.Runner2024;
+
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class TemplateRunner extends com.bf.aoc.Runner {
+public class TemplateRunner extends Runner2024 {
     static {
         DAY=0; TEST=true; PART=1;
     }

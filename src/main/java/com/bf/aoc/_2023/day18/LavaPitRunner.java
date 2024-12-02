@@ -1,6 +1,6 @@
 package com.bf.aoc._2023.day18;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 import com.bf.aoc.util.Direction;
 import com.bf.aoc.util.Point;
 import org.apache.commons.lang3.tuple.Pair;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class LavaPitRunner extends Runner {
+public class LavaPitRunner extends Runner2023 {
     static {
         DAY=18; TEST=false; PART=2;
     }

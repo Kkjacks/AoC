@@ -1,11 +1,11 @@
 package com.bf.aoc._2023.day16;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 import com.bf.aoc.util.Direction;
 
 import java.util.List;
 
-public class EnergyBeamRunner extends Runner {
+public class EnergyBeamRunner extends Runner2023 {
     static {
         DAY=16; TEST=false; PART=2;
     }

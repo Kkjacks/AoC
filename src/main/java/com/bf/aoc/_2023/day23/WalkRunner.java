@@ -1,10 +1,10 @@
 package com.bf.aoc._2023.day23;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 
 import java.util.List;
 
-public class WalkRunner extends Runner {
+public class WalkRunner extends Runner2023 {
     static {
         DAY=23; TEST=false; PART=2;
     }

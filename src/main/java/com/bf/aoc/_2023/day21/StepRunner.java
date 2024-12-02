@@ -1,6 +1,6 @@
 package com.bf.aoc._2023.day21;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 import com.bf.aoc.util.Point;
 
 import java.util.HashSet;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class StepRunner extends Runner {
+public class StepRunner extends Runner2023 {
     static {
         DAY=21; TEST=false; PART=2;
     }

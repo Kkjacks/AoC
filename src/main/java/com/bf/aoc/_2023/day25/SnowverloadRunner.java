@@ -1,6 +1,6 @@
 package com.bf.aoc._2023.day25;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,7 +16,7 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class SnowverloadRunner extends Runner {
+public class SnowverloadRunner extends Runner2023 {
     static {
         DAY=25; TEST=false; PART=1;
     }

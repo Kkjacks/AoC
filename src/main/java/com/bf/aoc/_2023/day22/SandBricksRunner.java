@@ -1,12 +1,12 @@
 package com.bf.aoc._2023.day22;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class SandBricksRunner extends Runner {
+public class SandBricksRunner extends Runner2023 {
     static {
         DAY=22; TEST=false; PART=2;
     }

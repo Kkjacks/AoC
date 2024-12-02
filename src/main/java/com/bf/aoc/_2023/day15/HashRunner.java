@@ -1,6 +1,6 @@
 package com.bf.aoc._2023.day15;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class HashRunner extends Runner {
+public class HashRunner extends Runner2023 {
     static {
         DAY=15; TEST=false; PART=2;
     }

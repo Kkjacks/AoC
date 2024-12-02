@@ -1,6 +1,6 @@
 package com.bf.aoc._2023.day14;
 
-import com.bf.aoc.Runner;
+import com.bf.aoc._2023.Runner2023;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Table;
 
@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class RockLoadRunner extends Runner {
+public class RockLoadRunner extends Runner2023 {
     static {
         DAY=14; TEST=false; PART=2;
     }
